@@ -1,1 +1,11 @@
-public/
+# Hugo build output
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# OS files
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
