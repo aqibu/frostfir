@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Posts on Frostfir</title>
+  <link rel="alternate" href="http://localhost:1313/posts/" />
+  <link rel="self" href="http://localhost:1313/posts/index.xml" />
+  <subtitle>Recent content in Posts on Frostfir</subtitle>
+  <id>http://localhost:1313/posts/</id>
+  <generator uri="http://gohugo.io" version="0.152.2">Hugo</generator>
+  <language>en-us</language>
+  <updated>2025-12-15T11:51:50-08:00</updated>
+  <author>
+    
+    
+  </author>
+  
+
+</feed>
+
+

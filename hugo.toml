@@ -1,0 +1,12 @@
+baseURL = "https://frostfir.com/"
+languageCode = "en-us"
+title = "Frostfir"
+theme = "WonderMod"
+
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  description = "Experiments and things I'm trying."
