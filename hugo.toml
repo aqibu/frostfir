@@ -14,3 +14,7 @@ enableRobotsTXT = true
 [params.social]
   twitter = ""          # optional, without @ (e.g. "aqibu")
   facebook_admin = ""   # optional
+
+[params.homeInfoParams]
+Title = "Frostfir"
+Content = "An experimental site demonstrating how to build and host a fast, privacy-conscious website for free using Cloudflare Pages — with only a yearly domain cost. Part public lab notebook, part personal hub."
