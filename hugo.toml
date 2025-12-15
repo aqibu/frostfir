@@ -20,3 +20,19 @@ Title = "Frostfir"
 Content = "An experimental site demonstrating how to build and host a fast, privacy-conscious website for free using Cloudflare Pages — with only a yearly domain cost. Part public lab notebook, part personal hub."
 
 mainSections = ["posts"]
+
+[[params.socialIcons]]
+name = "youtube"
+url = "https://www.youtube.com/"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/aqibu"
+
+[[params.socialIcons]]
+name = "mastodon"
+url = "https://YOUR_INSTANCE/@YOUR_USERNAME"
+
+[[params.socialIcons]]
+name = "bluesky"
+url = "https://bsky.app/profile/YOUR_HANDLE"
