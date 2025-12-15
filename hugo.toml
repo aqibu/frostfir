@@ -10,3 +10,7 @@ enableRobotsTXT = true
 
 [params]
   description = "Experiments and things I'm trying."
+
+[params.social]
+  twitter = ""          # optional, without @ (e.g. "aqibu")
+  facebook_admin = ""   # optional
