@@ -1,20 +1,45 @@
+############################
+# Site basics
+############################
 baseURL = "https://frostfir.com/"
 languageCode = "en-us"
 title = "Frostfir"
 theme = "WonderMod"
-
 enableRobotsTXT = true
 
+############################
+# Pagination
+############################
 [pagination]
-  pagerSize = 10
+pagerSize = 10
 
+############################
+# Main site parameters
+############################
 [params]
-  description = "Experiments and things I'm trying."
+description = "Experiments, documentation, and privacy-conscious publishing."
 
-[params.social]
-  twitter = ""          # optional, without @ (e.g. "aqibu")
-  facebook_admin = ""   # optional
+mainSections = ["posts"]
 
+############################
+# Header label / logo
+############################
+[params.label]
+text = "Frostfir"
+icon = "/images/frostfir-logo-simple.svg"
+iconHeight = 24
+
+############################
+# Favicons / site assets
+############################
+[params.assets]
+favicon = "/favicon.ico"
+favicon16x16 = "/favicon-16x16.png"
+favicon32x32 = "/favicon-32x32.png"
+
+############################
+# Home page intro block
+############################
 [params.homeInfoParams]
 Title = "Frostfir"
 Content = """
@@ -22,8 +47,16 @@ A small experimental site for testing ideas, documenting setups,
 and exploring simple, privacy-conscious publishing on the web.
 """
 
-mainSections = ["posts"]
+############################
+# Social metadata (used for cards, not icons)
+############################
+[params.social]
+twitter = ""
+facebook_admin = ""
 
+############################
+# Social icons (homepage)
+############################
 [[params.socialIcons]]
 name = "youtube"
 url = "https://www.youtube.com/"
@@ -40,6 +73,9 @@ url = "https://YOUR_INSTANCE/@YOUR_USERNAME"
 name = "bluesky"
 url = "https://bsky.app/profile/YOUR_HANDLE"
 
+############################
+# Main menu
+############################
 [[menu.main]]
 name = "Blog"
 url = "/posts/"
