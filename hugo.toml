@@ -17,7 +17,10 @@ enableRobotsTXT = true
 
 [params.homeInfoParams]
 Title = "Frostfir"
-Content = "An experimental site demonstrating how to build and host a fast, privacy-conscious website for free using Cloudflare Pages — with only a yearly domain cost. Part public lab notebook, part personal hub."
+Content = """
+A small experimental site for testing ideas, documenting setups,
+and exploring simple, privacy-conscious publishing on the web.
+"""
 
 mainSections = ["posts"]
 
@@ -36,3 +39,18 @@ url = "https://YOUR_INSTANCE/@YOUR_USERNAME"
 [[params.socialIcons]]
 name = "bluesky"
 url = "https://bsky.app/profile/YOUR_HANDLE"
+
+[[menu.main]]
+name = "Blog"
+url = "/posts/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 2
+
+[[menu.main]]
+name = "Privacy"
+url = "/privacy/"
+weight = 3
