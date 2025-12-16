@@ -26,7 +26,7 @@ mainSections = ["posts"]
 ############################
 [params.label]
 text = "Frostfir"
-icon = "/images/frostfir-logo-simple.svg"
+icon = "/images/frostfir-logo.svg"
 iconHeight = 24
 
 ############################
