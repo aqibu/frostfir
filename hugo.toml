@@ -11,38 +11,25 @@ enableRobotsTXT = true
 # Pagination
 ############################
 [pagination]
-pagerSize = 10
+  pagerSize = 10
 
 ############################
 # Main site parameters
 ############################
 [params]
-description = "Experiments, documentation, and privacy-conscious publishing."
+  description = "Experiments, documentation, and privacy-conscious publishing."
+  mainSections = ["posts"]
 
-mainSections = ["posts"]
-
-############################
-# Header label / logo
-############################
-[params.label]
-text = "Frostfir"
-icon = "/images/frostfir-logo.svg"
-iconHeight = 24
-
-############################
-# Favicons / site assets
-############################
-[params.assets]
-favicon = "/favicon.ico"
-favicon16x16 = "/favicon-16x16.png"
-favicon32x32 = "/favicon-32x32.png"
+  # WonderMod-native header logo
+  logo = "/images/frostfir-logo.svg"
+  logoHeight = 24
 
 ############################
 # Home page intro block
 ############################
 [params.homeInfoParams]
-Title = "Frostfir"
-Content = """
+  Title = "Frostfir"
+  Content = """
 A small experimental site for testing ideas, documenting setups,
 and exploring simple, privacy-conscious publishing on the web.
 """
@@ -51,42 +38,42 @@ and exploring simple, privacy-conscious publishing on the web.
 # Social metadata (used for cards, not icons)
 ############################
 [params.social]
-twitter = ""
-facebook_admin = ""
+  twitter = ""
+  facebook_admin = ""
 
 ############################
 # Social icons (homepage)
 ############################
 [[params.socialIcons]]
-name = "youtube"
-url = "https://www.youtube.com/"
+  name = "youtube"
+  url = "https://www.youtube.com/"
 
 [[params.socialIcons]]
-name = "github"
-url = "https://github.com/aqibu"
+  name = "github"
+  url = "https://github.com/aqibu"
 
 [[params.socialIcons]]
-name = "mastodon"
-url = "https://YOUR_INSTANCE/@YOUR_USERNAME"
+  name = "mastodon"
+  url = "https://YOUR_INSTANCE/@YOUR_USERNAME"
 
 [[params.socialIcons]]
-name = "bluesky"
-url = "https://bsky.app/profile/YOUR_HANDLE"
+  name = "bluesky"
+  url = "https://bsky.app/profile/YOUR_HANDLE"
 
 ############################
 # Main menu
 ############################
 [[menu.main]]
-name = "Blog"
-url = "/posts/"
-weight = 1
+  name = "Blog"
+  url = "/posts/"
+  weight = 1
 
 [[menu.main]]
-name = "About"
-url = "/about/"
-weight = 2
+  name = "About"
+  url = "/about/"
+  weight = 2
 
 [[menu.main]]
-name = "Privacy"
-url = "/privacy/"
-weight = 3
+  name = "Privacy"
+  url = "/privacy/"
+  weight = 3
