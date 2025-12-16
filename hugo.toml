@@ -22,7 +22,7 @@ enableRobotsTXT = true
 
 [params.label]
   text = "Frostfir"
-  icon = "/images/frostfir-logo.svg"
+  icon = "/images/frostfir-logo.png"
   iconHeight = 24
 
 ############################
