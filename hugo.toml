@@ -14,12 +14,28 @@ enableRobotsTXT = true
   pagerSize = 10
 
 ############################
+# Taxonomies (for #tags)
+############################
+[taxonomies]
+  tag = "tags"
+
+############################
+# Outputs (required for search)
+############################
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+############################
 # Main site parameters
 ############################
 [params]
   description = "Experiments, documentation, and privacy-conscious publishing."
   mainSections = ["posts"]
+  enableSearch = true
 
+############################
+# Header label / logo
+############################
 [params.label]
   text = "Frostfir"
   icon = "/images/frostfir-logo.png"
@@ -29,10 +45,10 @@ enableRobotsTXT = true
 # Home page intro block
 ############################
 [params.homeInfoParams]
-  Title = "Frostfir"
-  Content = """
-A small experimental site for testing ideas, documenting setups,
-and exploring simple, privacy-conscious publishing on the web.
+Title = "Frostfir"
+Content = """
+An experimental site for testing ideas, documenting setups,
+and exploring simple, privacy-conscious publishing.
 """
 
 ############################
@@ -78,3 +94,8 @@ and exploring simple, privacy-conscious publishing on the web.
   name = "Privacy"
   url = "/privacy/"
   weight = 3
+
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 4

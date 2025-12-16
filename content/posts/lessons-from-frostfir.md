@@ -1,6 +1,7 @@
 ---
 title: "Lessons from Setting Up Frostfir"
 date: 2025-12-15
+tags: ["experiments", "meta", "infrastructure", "learning"]
 ---
 
 Setting up Frostfir reinforced a few things I already suspected, and clarified a

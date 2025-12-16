@@ -1,6 +1,7 @@
 ---
 title: "Why Frostfir"
 date: 2025-12-15
+tags: ["experiments", "meta", "infrastructure"]
 ---
 
 Frostfir is an experiment.
