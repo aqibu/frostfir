@@ -20,9 +20,10 @@ enableRobotsTXT = true
   description = "Experiments, documentation, and privacy-conscious publishing."
   mainSections = ["posts"]
 
-  # WonderMod-native header logo
-  logo = "/images/frostfir-logo.svg"
-  logoHeight = 24
+[params.label]
+  text = "Frostfir"
+  icon = "/images/frostfir-logo.svg"
+  iconHeight = 24
 
 ############################
 # Home page intro block
