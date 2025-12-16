@@ -67,7 +67,7 @@ and exploring simple, privacy-conscious publishing.
 
 [[params.socialIcons]]
   name = "github"
-  url = "https://github.com/aqibu"
+  url = "https://github.com/"
 
 [[params.socialIcons]]
   name = "mastodon"
